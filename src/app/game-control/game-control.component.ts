@@ -25,6 +25,7 @@ lastNumber = 0;
   }
 
   stopTheGame() {
+    console.log('stop the game');
     clearInterval(this.interval);
   }
 }
